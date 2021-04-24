@@ -346,15 +346,16 @@ span.mainfunction {color: #993300; font-weight: bolder}
 -->
 
 <script  type="text/x-red" data-container-name="NodeDefinitions">
-    {"OpenAudio_ArduinoLibrary_F32":{
+{
+    "OpenAudio_ArduinoLibrary_F32":{
 		"label":"F32 OpenAudio ArduinoLibrary",
         "description":"32bit floating point library",
         "credits":"https://github.com/chipaudette/OpenAudio_ArduinoLibrary/graphs/contributors",
         "homepage":"https://github.com/manicken",
         "url":"",
-	    "isAddon":true,
-		"types":{ 
-			"AudioAnalyzePhase_F32":{"defaults":{"name":{"value":"new"}},"shortName":"phaseDet","inputs":"1","outputs":"1","inputTypes":{"x1":"f32"},"outputTypes":{"x1":"f32"},"category":"analyze-function","color":"#E6E0F8","icon":"arrow-in.png"},
+        "isAddon":true,
+        "types":{ 
+			"AudioAnalyzePhase_F32":{"defaults":{"name":{"value":"new"}},"shortName":"phaseDet","inputs":1,"outputs":1,"inputTypes":{"x1":"f32"},"outputTypes":{"x1":"f32"},"category":"analyze-function","color":"#E6E0F8","icon":"arrow-in.png"},
 
 			"AudioAnalyzePeak_F32":{"defaults":{"name":{"value":"new"}},"shortName":"peak","inputs":1,"outputs":0,"inputTypes":{"x1":"f32"},"category":"analyze-function","color":"#E6E0F8","icon":"arrow-in.png"},
 			"AudioAnalyzeRMS_F32":{"defaults":{"name":{"value":"new"}},"shortName":"rms","inputs":1,"outputs":0,"inputTypes":{"x1":"f32"},"category":"analyze-function","color":"#E6E0F8","icon":"arrow-in.png"},
@@ -437,10 +438,11 @@ span.mainfunction {color: #993300; font-weight: bolder}
 
 			"RadioIQMixer_F32":{"defaults":{"name":{"value":"new"}},"shortName":"I-QMixer","inputs":2,"outputs":2,"inputTypes":{"x2":"f32"},"outputTypes":{"x2":"f32"},"category":"radio-function","color":"#E6E0F8","icon":"arrow-in.png"},
 
-			"AudioControlSGTL5000_Extended":{"defaults":{"name":{"value":"new"}},"shortName":"sgtl5000","inputs":0,"outputs":0,"category":"control-function","color":"#E6E0F8","icon":"arrow-in.png"},
+			"AudioControlSGTL5000_Extended":{"defaults":{"name":{"value":"new"}},"shortName":"sgtl5000","inputs":0,"outputs":0,"category":"control-function","color":"#E6E0F8","icon":"arrow-in.png"}
 
-		}
-    }}
+        }
+    }
+}
 </script>
 
 <script type="text/x-red" data-help-name="AudioCalcEnvelope_F32">
